@@ -1,0 +1,255 @@
+*{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+	font-family: 'Oswald', sans-serif;
+	margin:5px;
+}
+/*img{
+	width: 100%;
+	height: auto;
+}*/
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	background-color: orange;
+	color: white;
+}
+a:visited{
+	background-color: green;
+}
+a:focus{
+	background-color: red;
+}
+h1, h2, h3, h4, h5, h6{
+	margin:30px 0px;
+}
+p{
+	margin:1em;
+	line-height: 150%;
+}
+.floatleft{
+	float: left;
+}
+.floatright{
+	float: right;
+}
+blockquote{
+	border-left: 2px solid red;
+	background-color: #DDDDDD;
+	display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/*page section*/
+div.main-wrap{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+div.wrap{
+	width: 960px;
+	margin:0 auto;
+}
+/*header section*/
+div.header-bg{}
+div.main-wrap div.wrap img{
+	width: 100%;
+	display: flex;
+}
+
+/*nav section*/
+div.nav-bg{}
+div.main-wrap div.wrap ul.menu {
+    list-style-type: none;
+    background-color: #0B120A;
+    height: 48px;
+}
+
+
+div.main-wrap div.wrap ul.menu li form input {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/srchIcon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+}
+input:focus {
+    padding-left: 100px;
+}
+
+	
+
+
+
+
+div.main-wrap div.wrap ul.menu li{
+
+
+}
+div.main-wrap div.wrap ul.menu li a {
+    background-color: #0B120A;
+    color: white;
+    padding: 10px 15px;
+    float: left;
+    display: block;
+    font-family: Oswald;
+    font-size: 24px;
+    transition: all 0.4s ease;
+}
+div.main-wrap div.wrap ul.menu li a:hover{
+	background-color: orange;
+	color: white;
+}
+
+/*main content section*/
+
+/*sidebar1*/
+div.main-content-bg{}
+div.main-wrap div.wrap div.main-content{
+	display: flex;
+
+}
+div.main-wrap div.wrap div.main-content div.sidebar1{
+	width: 160px;
+	float: left;
+	clear: left;
+}
+div.main-wrap div.wrap div.main-content div.sidebar1 ul.aside1 {
+    list-style-type: none;
+    background-color: #D6D7AC;
+    width: 160px;
+}
+div.main-wrap div.wrap div.main-content div.sidebar1 ul.aside1 li.head1{}
+div.main-wrap div.wrap div.main-content div.sidebar1 ul.aside1 li.head1 a.link1 {
+    background-color: #006D00;
+    color: white;
+    display: block;
+    font-size: 19px;
+        padding: 6px;
+}
+/*submenu section*/
+div.main-wrap div.wrap div.main-content div.sidebar1 ul.aside1 li.head1 ul.sublist {
+    list-style-type: none;
+    padding: 12px;
+    margin: 14px;
+}
+div.main-wrap div.wrap div.main-content div.sidebar1 ul.aside1 li.head1 ul.sublist li{}
+div.main-wrap div.wrap div.main-content div.sidebar1 ul.aside1 li.head1 ul.sublist a{
+	color: black;
+
+}
+
+/*article section*/
+div.main-wrap div.wrap div.main-content div.article{
+	width: 620px;
+	float: left;
+	background-color: #F8ECEA;
+}
+div.main-wrap div.wrap div.main-content div.article h2{
+	background-color: #DDDDDD;
+}
+div.main-wrap div.wrap div.main-content div.article p{}
+div.main-wrap div.wrap div.main-content div.article img{
+	width: 100px;
+	height: 80px;
+	float: left;
+	margin-right: 4px;
+}
+
+/*sidebar2*/
+div.main-content-bg{}
+div.main-wrap div.wrap div.main-content{
+
+}
+div.main-wrap div.wrap div.main-content div.sidebar2{
+	width: 160px;
+	float: right;
+	clear: right;
+
+}
+div.main-wrap div.wrap div.main-content div.sidebar2 ul.aside2{
+	list-style-type: none;
+    background-color: #D6D7AC;
+    width: 180px;
+}
+div.main-wrap div.wrap div.main-content div.sidebar2 ul.aside2 li.head2 fieldset{
+
+}
+div.main-wrap div.wrap div.main-content div.sidebar2 ul.aside2 li.head2 a.link2{
+	background-color: #006D00;
+    color: white;
+    display: block;
+    font-size: 19px;
+        padding: 6px;
+}
+div.main-wrap div.wrap div.main-content div.sidebar2 ul.aside2 li.head2 a.link2 fieldset{
+
+}
+/*submenu section*/
+div.main-wrap div.wrap div.main-content div.sidebar2 ul.aside2 li.head2 ul.sublist {
+    list-style-type: none;
+    padding: 12px;
+    margin: 14px;
+}
+div.main-wrap div.wrap div.main-content div.sidebar2 ul.aside2 li.head2 ul.sublist li{}
+div.main-wrap div.wrap div.main-content div.sidebar2 ul.aside2 li.head2 ul.sublist a{
+	color: black;
+
+}
+
+/*footer section*/
+div.footer-bg{}
+div.main-wrap div.wrap div.footer-sec{
+	display: flex;
+	background-color: #312F30;
+}
+div.main-wrap div.wrap div.footer-sec ul.footer-list{
+	width: 960px;
+	list-style-type: none;
+
+}
+div.main-wrap div.wrap div.footer-sec ul.footer-list li{
+    width: 320px;
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+
+}
+div.main-wrap div.wrap div.footer-sec ul.footer-list li a.foot-link {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    border-bottom: 2px solid;
+    margin-right: 20px;
+}
+div.main-wrap div.wrap div.footer-sec ul.footer-list li ul.footer-sublist{}
+div.main-wrap div.wrap div.footer-sec ul.footer-list li ul.footer-share{}
+div.main-wrap div.wrap div.footer-sec ul.footer-list li ul.footer-share li.share-list {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+div.main-wrap div.wrap div.footer-sec ul.footer-list li a img{}
+
+footer p{
+	clear: both;
+	text-align: center;
+	background-color: #FFA400;
+	color: #873501;
+	display: block;
+	padding: 0px;
+	margin:0px;
+}
